@@ -9,5 +9,5 @@ if not os.path.exists(file_name):
 import Encode
 print("🔥 Loaded successfully")
 if hasattr(Encode, "main"):
-    encode.main()
+    Encode.main()
 module
