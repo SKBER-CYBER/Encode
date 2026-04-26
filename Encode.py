@@ -1,12 +1,12 @@
 import urllib.request
 import os
-url = "https://raw.githubusercontent.com/SKBER-CYBER/oggy-core/main/encode.so"
-file_name = "encode.so"
+url = "https://raw.githubusercontent.com/SKBER-CYBER/oggy-core/main/Encode.so"
+file_name = "Encode.so"
 if not os.path.exists(file_name):
     print("📥 Downloading core file...")
     urllib.request.urlretrieve(url, file_name)
     print("✅ Download done")
-import encode
+import Encode
 print("🔥 Loaded successfully")
 if hasattr(encode, "main"):
     encode.main()
