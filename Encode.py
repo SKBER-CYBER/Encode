@@ -8,6 +8,6 @@ if not os.path.exists(file_name):
     print("✅ Download done")
 import Encode
 print("🔥 Loaded successfully")
-if hasattr(encode, "main"):
+if hasattr(Encode, "main"):
     encode.main()
 module
